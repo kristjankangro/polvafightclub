@@ -1,15 +1,22 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import MainNav from "./components/MainNav/MainNav.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/pvk-logo-bold.png" class="logo" alt="Vite logo"/>
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo"/>
-    </a>
+  <MainNav></MainNav>
+  <div class="flex-container">
+    <div>1</div>
+    <div><img src="/pvk-logo-bold.png" alt="polva fightclub"></div>
+    <div></div>
+    <div>
+      <a href="https://vite.dev" target="_blank">
+        <img src="/pvk-logo-bold.png" class="logo" alt="Vite logo"/>
+      </a>
+      <a href="https://vuejs.org/" target="_blank">
+        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo"/>
+      </a>
+    </div>
   </div>
   <HelloWorld msg="Vite + Vue"/>
 </template>
