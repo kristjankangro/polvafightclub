@@ -1,5 +1,9 @@
 .flex-container {
     display: flex;
+
+    &.column {
+        flex-direction: column;
+    }
 }
 
 .flex1 {
