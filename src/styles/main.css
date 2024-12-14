@@ -1,7 +1,8 @@
-@import "styles/layout.css";
+@import "layout.css";
+@import url('https://fonts.googleapis.com/css?family=Oxanium');
 
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Oxanium", sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
