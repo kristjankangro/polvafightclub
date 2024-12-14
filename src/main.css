@@ -1,5 +1,5 @@
-@import "layout.css";
-@import "buttons.css";
+@import "./styles/layout.css";
+@import "./styles/buttons.css";
 @import url('https://fonts.googleapis.com/css?family=Oxanium');
 
 :root {
@@ -39,8 +39,8 @@ hr {
 
 a {
     font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
+    color: #F2f3f4;
+    text-decoration: none;
 }
 
 a:hover {
@@ -49,7 +49,6 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
