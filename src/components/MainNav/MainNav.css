@@ -1,21 +1,38 @@
 .main-nav {
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    overflow: hidden;
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-delay: 2s;
-    display: flex;
-    flex-direction: row;
-    height: 60px;
-    font-size: 22px;
-    font-weight: bold;
-    background-color: #333;
-    color: white;
-    cursor: pointer;
+    width: 250px;
+    /*background-color: rgba(247,247,247,1);*/
+    /*color: #333;*/
+    /*position: sticky;*/
+    /*z-index: 1;*/
+    /*top: 0;*/
+    /*overflow: hidden;*/
+    /*transition-property: background-color;*/
+    /*transition-duration: 1s;*/
+    /*transition-delay: 2s;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*height: 60px;*/
+    /*font-size: 22px;*/
+    /*font-weight: bold;*/
+    /*cursor: pointer;*/
+
+    .nav-tab {
+        min-height: 45px;
+    }
 
     :hover {
-        color: #ddd;
+        transition: all ease 1s;
+        color: #aaa;
+    }
+
+    a {
+        color: #444;
+        border-bottom: 4px solid transparent;
+    }
+
+    .router-link-active {
+        /*color: var(--red-color);*/
+        color: #444;
+        border-bottom: 4px solid var(--red-color);
     }
 }

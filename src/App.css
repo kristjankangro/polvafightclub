@@ -18,6 +18,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.content-main {
+    text-align: left;
+}
 
 hr {
     border: none;
@@ -32,14 +35,9 @@ hr {
     }
 }
 
-.nav-placeholder {
-    position: absolute;
-    height: var(--nav-height);
-}
-
 a {
     font-weight: 500;
-    color: #F2f3f4;
+    color: #333;
     text-decoration: none;
 }
 
@@ -72,7 +70,7 @@ h1 {
 }
 
 .logo {
-    height: 6em;
+    height: 200px;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
@@ -99,4 +97,13 @@ h1 {
     button {
         background-color: #f9f9f9;
     }
+}
+
+.main-layout {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.cost-lg {
+    font-size: 21px;
 }
