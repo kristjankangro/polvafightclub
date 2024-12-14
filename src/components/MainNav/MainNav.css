@@ -1,6 +1,6 @@
 .main-nav {
     width: 250px;
-    /*background-color: rgba(247,247,247,1);*/
+    background-color: rgba(247,247,247,1);
     /*color: #333;*/
     /*position: sticky;*/
     /*z-index: 1;*/
@@ -15,6 +15,7 @@
     /*font-size: 22px;*/
     /*font-weight: bold;*/
     /*cursor: pointer;*/
+    
 
     .nav-tab {
         min-height: 45px;
