@@ -6,10 +6,11 @@
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <nav class="pill-group">
-        <a href="#" class="nav-tab" [href]="'/home'">Tule trenni</a>
-        <a href="#" class="nav-tab">Maasvõitlus</a>
-        <a href="#" class="nav-tab">Püstivõitlus</a>
-        <a href="#" class="nav-tab">Kontak/Info</a>
+        <a href="#" class="nav-tab" routerLink="/home" routerLinkActive="active">Tule trenni</a>
+        <a href="#" class="nav-tab" routerLink="/bjj" routerLinkActive="active">Maasvõitlus</a>
+        <a href="#" class="nav-tab" routerLink="/mma" routerLinkActive="active">Püstivõitlus</a>
+        <a href="#" class="nav-tab" routerLink="/schedule" routerLinkActive="active">Treeningplaan</a>
+        <a href="#" class="nav-tab" routerLink="/info" routerLinkActive="active">Info/Kontakt</a>
         @for (item of [
           { title: 'Explore the Docs', link: 'https://angular.dev' },
           { title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials' },
