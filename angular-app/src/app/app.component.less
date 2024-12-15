@@ -86,7 +86,7 @@
 
   .divider {
     width: 4px;
-    background-color:  var(--red-color);
+    background-color: #fefefe;
     margin-inline: 0.5rem;
   }
 
@@ -95,7 +95,6 @@
     flex-direction: column;
     align-items: start;
     flex-wrap: wrap;
-    gap: 1.25rem;
   }
 
   .pill {
@@ -120,10 +119,18 @@
 
   .nav-tab {
     color: #333;
+    width: 100%;
+    background-color: transparent;
+    padding: 25px;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
     text-decoration: none;
+    border-bottom: 1px solid white;
+    border-left: 4px solid transparent;
+    &.active {
+      border-left: 4px solid var(--red-color);
+    }
   }
 
   .pill:hover {
