@@ -1,7 +1,16 @@
 <div>
   <img class="logo-main" alt="polva fightclub" src="/logo-main.png">
 </div>
-<button>Registreeri treeningutele</button>
+<button (click) ="btnClick()" >Registreeri treeningutele</button>
+Midä sa mu passati kotsilõ ütlit?
 <h1>Hello, {{ title }}</h1>
+<p>registration works!</p>
+<form *ngIf="showReg">
+  <input type="text" value="Email">
+  <input type="text" value="Phone">
+  <input type="text" value="iskikukood">
+  <input type="text" value="iskikukood">
+  <button>Registreeri</button>
+</form>
 
 
