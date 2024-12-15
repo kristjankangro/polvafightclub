@@ -1,11 +1,13 @@
 import {Component} from '@angular/core';
 import {Router} from '@angular/router';
 import {NgIf} from '@angular/common';
+import {RegistrationComponent} from '../registration/registration.component';
 
 @Component({
   selector: 'app-home',
   imports: [
-    NgIf
+    NgIf,
+    RegistrationComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.less'
