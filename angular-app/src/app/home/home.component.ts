@@ -21,6 +21,10 @@ export class HomeComponent {
     this.router = router;
   }
 
+  GetData() {
+    this.showReg = false;
+  }
+
   btnClick() {
     this.showReg = !this.showReg;
   }

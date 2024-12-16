@@ -1,9 +1,9 @@
 <div>
   <img class="logo-main" alt="polva fightclub" src="/logo-main.png">
 </div>
-<button (click) ="btnClick()" >Registreeri treeningutele</button>
+<button *ngIf="!showReg" (click) ="btnClick()" class="btn-cta">Registreeri treeningutele</button>
 Midä sa mu passati kotsilõ ütlit?
 <h1>Hello, {{ title }}</h1>
-<app-registration *ngIf="showReg"></app-registration>
+<app-registration *ngIf="showReg" (updateFormVisible))="GetData()" ></app-registration>
 
 

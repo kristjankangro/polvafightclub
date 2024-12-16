@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {NgIf} from '@angular/common';
 
 @Component({
@@ -10,9 +10,10 @@ import {NgIf} from '@angular/common';
   styleUrl: './registration.component.less'
 })
 export class RegistrationComponent {
-  showReg: boolean = false;
+
+  @Output('updateFormVisible)') updateFormVisible = new EventEmitter<boolean>();
 
   btnClick() {
-    this.showReg = !this.showReg;
+    this.updateFormVisible.emit(false);
   }
 }
