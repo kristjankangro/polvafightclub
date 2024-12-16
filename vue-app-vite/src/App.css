@@ -18,13 +18,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-
-
   .bjj-image {
-    background-size: 630px;
+    background-size: calc(100vw - 250px);
     background-position: left;
     background-color: black;
-    width: 700px;
+    width: calc(100vw - 250px);
     height: 200px;
     opacity: 1;
     background-image: url('./assets/bjj-image.jpg');
@@ -34,7 +32,9 @@
     }
   }
 }
+#app {
 
+}
 .content-main {
   text-align: left;
 }
@@ -79,12 +79,7 @@ h1 {
   padding: 2em;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 .logo {
   height: 200px;
