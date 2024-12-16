@@ -23,7 +23,7 @@
     background-position: left;
     background-color: black;
     width: calc(100vw - 250px);
-    height: 200px;
+    height: 340px;
     opacity: 1;
     background-image: url('./assets/bjj-image.jpg');
 
@@ -118,4 +118,10 @@ h1 {
 
 .cost-lg {
   font-size: 21px;
+}
+
+@media (max-width: 992px) {
+  .bjj-image {
+    width: 100vw;
+  }
 }
