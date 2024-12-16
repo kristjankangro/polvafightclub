@@ -1,39 +1,40 @@
 .main-nav {
-    width: 250px;
-    background-color: rgba(247,247,247,1);
-    /*color: #333;*/
-    /*position: sticky;*/
-    /*z-index: 1;*/
-    /*top: 0;*/
-    /*overflow: hidden;*/
-    /*transition-property: background-color;*/
-    /*transition-duration: 1s;*/
-    /*transition-delay: 2s;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*height: 60px;*/
-    /*font-size: 22px;*/
-    /*font-weight: bold;*/
-    /*cursor: pointer;*/
-    
+  width: 250px;
+  height: 100vh;
+  background-color: rgba(247, 247, 247, 1);
+  /*color: #333;*/
+  /*position: sticky;*/
+  /*z-index: 1;*/
+  /*top: 0;*/
+  /*overflow: hidden;*/
+  /*transition-property: background-color;*/
+  /*transition-duration: 1s;*/
+  /*transition-delay: 2s;*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*height: 60px;*/
+  /*font-size: 22px;*/
+  /*font-weight: bold;*/
+  /*cursor: pointer;*/
 
-    .nav-tab {
-        min-height: 45px;
-    }
 
-    :hover {
-        transition: all ease 1s;
-        color: #aaa;
-    }
+  .nav-tab {
+    min-height: 45px;
+  }
 
-    a {
-        color: #444;
-        border-bottom: 4px solid transparent;
-    }
+  :hover {
+    transition: all ease 1s;
+    color: #aaa;
+  }
 
-    .router-link-active {
-        /*color: var(--red-color);*/
-        color: #444;
-        border-bottom: 4px solid var(--red-color);
-    }
+  a {
+    color: #444;
+    border-bottom: 4px solid transparent;
+  }
+
+  .router-link-active {
+    /*color: var(--red-color);*/
+    color: #444;
+    border-bottom: 4px solid var(--red-color);
+  }
 }

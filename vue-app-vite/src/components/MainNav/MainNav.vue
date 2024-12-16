@@ -5,7 +5,7 @@ import "./MainNav.css";
 <template>
   <div class="main-nav flex-container column">
     <div><img class="logo-xl" src="/pvk-logo-bold.png" alt=""></div>
-    <div class="nav-tab"><RouterLink to="/">Tule trenni</RouterLink></div>
+    <div class="nav-tab"><RouterLink to="/">Treeningplaan</RouterLink></div>
     <div class="nav-tab"><RouterLink to="/info">Kontakt</RouterLink></div>
     <div class="nav-tab"><RouterLink to="/bjj">Maasvõitlus</RouterLink></div>
     <div class="nav-tab"><RouterLink to="/mma">Püstivõitlus</RouterLink></div>
