@@ -3,107 +3,124 @@
 @import url('https://fonts.googleapis.com/css?family=Oxanium');
 
 :root {
-    --nav-height: 60px;
-    --red-color: rgba(255, 82, 82, 1);
-    font-family: "Oxanium", sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+  --nav-height: 60px;
+  --red-color: rgba(255, 82, 82, 1);
+  font-family: "Oxanium", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-    color-scheme: dark light;
-    color: #333;
-    background-color: #ffff;
+  color-scheme: dark light;
+  color: #333;
+  background-color: #ffff;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+  .bjj-image {
+    background-size: 630px;
+    background-position: left;
+    background-color: black;
+    width: 700px;
+    height: 200px;
+    opacity: 1;
+    background-image: url('./assets/bjj-image.jpg');
+
+    .page-title-white {
+      color: white;
+    }
+  }
 }
+
 .content-main {
-    text-align: left;
+  text-align: left;
 }
 
 hr {
-    border: none;
-    height: 1px;
-    color: #333;
-    background-color: #333;
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
 
-    &.red {
-        color: var(--red-color);
-        background-color: var(--red-color);
-        height: 6px;
-    }
+  &.red {
+    color: var(--red-color);
+    background-color: var(--red-color);
+    height: 6px;
+  }
 }
 
 a {
-    font-weight: 500;
-    color: #333;
-    text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #535bf2;
+  color: #535bf2;
 }
 
 body {
-    margin: 0;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
 
 .card {
-    padding: 2em;
+  padding: 2em;
 }
 
 #app {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 .logo {
-    height: 200px;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+  height: 200px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
 .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .logo.vue:hover {
-    filter: drop-shadow(0 0 2em #42b883aa);
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
-        color: #213547;
-        background-color: #ffffff;
-    }
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
 
-    a:hover {
-        color: #747bff;
-    }
+  a:hover {
+    color: #747bff;
+  }
 
-    button {
-        background-color: #f9f9f9;
-    }
+  button {
+    background-color: #f9f9f9;
+  }
 }
 
 .main-layout {
-    align-items: flex-start;
-    justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .cost-lg {
-    font-size: 21px;
+  font-size: 21px;
 }
