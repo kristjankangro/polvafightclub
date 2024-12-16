@@ -64,3 +64,6 @@ testem.log
 # System files
 Thumbs.db
 .next
+
+# Local Netlify folder
+.netlify
